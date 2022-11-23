@@ -11,7 +11,7 @@ Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden
 
 ##### [22,27,16,2,18,6]
 ---
-#####1) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+##### 1) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
 1. [22|,27,16,2,18,6]: 22 dizinde 27 'den küçük olduğu için sıralama değişmez.
 
@@ -26,7 +26,7 @@ Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden
 6. Son sıralama şekildeki gibidir. [2,6,16,18,22,27]
 ---
 
-#####2) Big-O gösterimini yazınız.
+##### 2) Big-O gösterimini yazınız.
 
 - Dizideki eleman sayısı n olsun. Big-O yöntemine göre sıralama yapılırken işlem sayısı da n olur. Son işlem sayısı 1 olana kadar devam eder.
 - Insertion Sort algoritması n elemanlı bir listede, ikinci eleman için en fazla 1 karşılaştırma ve 1 yer değiştirme yapar.
@@ -36,14 +36,14 @@ Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden
 Big-O değeri = O(n²)
 ---
 
-#####3) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
+##### 3) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
 - [2,6,16,18,22,27] dizisine bakıldığında 18 sayısı ortada olduğu için Average Case kapsamına girer.
 ---
 
 ## Selection Sort
 ---
 
-#####4) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+##### 4) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 1. [`2`,3,5,8,`7`,9,4,15,6]
 2. [2,3,5,8,7,9,4,15,6]
 3. [2,3,`4`,8,7,9,`5`,15,6]
